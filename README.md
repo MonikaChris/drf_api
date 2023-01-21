@@ -14,3 +14,9 @@ container.
 
 docker-compose up
 
+API Site Link:\
+http://0.0.0.0:8000/
+
+Admin Page Link:\
+http://0.0.0.0:8000/admin
+
