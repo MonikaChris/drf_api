@@ -20,3 +20,15 @@ http://0.0.0.0:8000/
 Admin Page Link:\
 http://0.0.0.0:8000/admin
 
+### Test
+
+Test from the command line using httpie (brew install).
+
+To get an access token and a refresh token, run: 
+
+`http POST :8000/api/token/ username=admin password=admin
+`
+
+Next, to get entries from the database, use the access token and run: 
+
+`http :8000/ "Authorization: Bearer <access token>"`
